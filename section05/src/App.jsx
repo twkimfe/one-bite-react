@@ -10,7 +10,9 @@ function App() {
     <>
       <Button text={'메일'} color={"red"} />
       <Button text={'카페'} />
-      <Button text={'블로그'} />
+      <Button text={'블로그'} >
+        <Header />
+      </Button>
     </>
   )
 }

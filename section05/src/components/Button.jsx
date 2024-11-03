@@ -1,7 +1,10 @@
-const Button = ({ text, color }) => {
+import { Children } from "react";
+
+const Button = ({ text, color, children }) => {
   return (
     <button style={{ color: color }}>
       {text} - {color.toUpperCase()}
+      {children}
     </button>
   );
 };
