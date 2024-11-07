@@ -14,6 +14,11 @@
   flex: 1;
 }
 
+.TodoItem .content_done {
+  text-decoration: line-through;
+  color: #999;
+}
+
 .TodoItem .date {
   font-size: 14px;
   color: gray;
